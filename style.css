@@ -43,6 +43,7 @@ a {color: grey;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .imagem-1 {
@@ -78,7 +79,7 @@ a {color: grey;
 .button-1 {
   width: 12em;
   height: 2.49em;
-  background-color: aquamarine;
+  background-color: #5fdcdc;
   border: none;
   color: white;
   border-radius: 0.5em;
@@ -117,7 +118,7 @@ text-align: center;
 
 }.button-2 { width: 12em;
     height: 2.3em;
-    background-color: aquamarine;
+    background-color: #5fdcdc;
     border: none;
     color: white;
     border-radius: 1.5em;
@@ -144,7 +145,7 @@ font-weight: bold;}
 
   .button-3 {width: 150px;
   border: none;
-background-color: aquamarine;
+background-color: #5fdcdc;
 border-radius: 30px;
 }
 
@@ -186,7 +187,9 @@ height: 60px;
 border-radius: 100%;
 display: flex;
 justify-content: center;
-    align-items: center;}
+    align-items: center;
+  position: relative;
+bottom: 30px;}
 
 .icones {width: 40px;
 height: 40px;}
@@ -196,3 +199,11 @@ height: 40px;}
 .margin-2 { margin-top: 13px;
 margin-bottom: 15px;}
 
+.button-4 { background-color: #5fdcdc;
+width: 70px;
+height: 30px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 25px;}
