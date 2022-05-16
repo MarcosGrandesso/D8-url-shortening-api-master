@@ -1,57 +1,198 @@
-.header {display: flex;
-height: 100px;
-background-color: aquamarine;}
 
-.titulo-1 {font-size: 40px;}
 
-.ancoras { text-decoration: none;}
+.header {
+  display: flex;
+  height: 100px;
+}
 
-.flex-end {display: flex;
-justify-content: flex-end;}
+.head-1 { display: flex;
+width: 600px;
+justify-content: space-evenly;
+align-items: center;}
 
-.conteudo-1 { display: flex;
+.head-2 {display: flex ;
+}
+
+.titulo-1 { 
+  font-weight: 600;
+  font-size: 40px;
+}
+
+a {color: grey;
+  text-decoration: none;}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.conteudo-1 {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 100px;
+}
+
+.img-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-direction-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.imagem-1 {
+  width: 25em;
+  height: 25em;
+}
+
+.encurtador {
+  background-color: purple;
+  width: 45em;
+  height: 7em;
+  display: flex;
+  background-image: url(/bg-shorten-desktop.svg);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+
+.encurtador-flex {display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+.input-1 {
+  width: 30em;
+  height: 2.3em;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.button-1 {
+  width: 12em;
+  height: 2.49em;
+  background-color: aquamarine;
+  border: none;
+  color: white;
+  border-radius: 0.5em;
+  align-self: center;
+}
+
+.advanced-statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: rgba(215, 214, 214, 0.175);
+  padding-top: 60px;
+}
+
+.diagonal {
+  display: flex;
+  gap: 15px;
+  background-color: rgba(215, 214, 214, 0.175);
+  height: 20em;
+  justify-content: center;
+  padding: 70px 0px;
+}
+
+
+.roda-pe-roxo {
+  height: 15em;
+  background-color: rgb(19, 30, 101);
+  display: flex;
 flex-direction: column;
-width:500px ;
-background-color: bisque;
-height: 100px;}
+background-image: url(bg-boost-desktop.svg);
+text-align: center;
 
-.img-1 { display: flex;
-flex-direction: row;}
 
-.flex-direction-row { display: flex;
-flex-direction: row;}
 
-.imagem-1 {width: 25em;
-height: 25em;}
-
-.encurtador { background-color: purple;
-width: 45em;
-height: 7em;
-display: flex;}
-
-.input-1 {width: 30em;
-height: 2.3em;
-align-self: center;}
-
-.button-1 {width: 12em;
+}.button-2 { width: 12em;
     height: 2.3em;
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    border-radius: 1.5em;
+    align-self: center;
+    height: 10x;
+
+}
+
+.roda-pe-preto {display: flex;
+background-color: blanchedalmond;
+width: 100%;
+justify-content: space-around;}
+
+.features {flex-direction: row;}
+
+.titulo-2 {font-size: 50px;
+font-weight: bold;}
+
+.titulo-3 {font-size: 35px;
+  font-weight: 600;}
+
+.paragrafo {color: grey;
+  font-size: 20px;}
+
+  .button-3 {width: 150px;
+  border: none;
 background-color: aquamarine;
-border: none;
-color: white;
-border-radius: 0.5em;
-align-self: center;}
+border-radius: 30px;
+}
 
-.advanced-statistics {display: flex;
-    flex-direction: column;
-align-items: center;
+.div-diagonal {
+  width: 250px;
+  height: 200px;
+  padding: 0 20px;
+  background-color: white;
+
+  border-radius: 15px;
+}
+
+.div-diagonal-2 {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+align-self: center;
+border-radius: 15px;
+padding: 0 20px;}
+
+.div-diagonal-3 {  
+  padding: 0 20px;
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  align-self: flex-end;
+  border-radius: 15px;
+}
+
+.titulo-4 {color: white;
+font-size: 35px;
+font-weight: 600;
+padding: 45px;
+padding-top: 55px;}
+
+.circulo-icon {background-color: rgb(59, 0, 122);
+width: 60px;
+height: 60px;
+border-radius: 100%;
+display: flex;
 justify-content: center;
-height: 150px;}
+    align-items: center;}
 
-.diagonal {display: flex;
-gap: 15px;
-background-color: blue;
-height: 20em;}
+.icones {width: 40px;
+height: 40px;}
 
-.div-diagonal {width: 250px;
-height: 150px;
-background-color: rosybrown; ;}
+.margin { margin-top: 13px;}
+
+.margin-2 { margin-top: 13px;
+margin-bottom: 15px;}
+
