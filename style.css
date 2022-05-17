@@ -1,25 +1,33 @@
-
-
 .header {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 22rem;
   height: 100px;
+  /* vitor me ajudou no gap */
 }
 
-.head-1 { display: flex;
-width: 600px;
-justify-content: space-evenly;
-align-items: center;}
-
-.head-2 {display: flex ;
+.head-1 {
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.titulo-1 { 
+.head-2 {
+  display: flex;
+  align-items: center;
+}
+
+.titulo-1 {
   font-weight: 600;
   font-size: 40px;
 }
 
-a {color: grey;
-  text-decoration: none;}
+a {
+  color: grey;
+  text-decoration: none;
+}
 
 .flex-end {
   display: flex;
@@ -41,7 +49,8 @@ a {color: grey;
 .flex-direction-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
   margin-bottom: 100px;
   margin-top: 50px;
 }
@@ -52,38 +61,41 @@ a {color: grey;
 }
 
 .encurtador {
-  background-color: purple;
-  width: 45em;
-  height: 7em;
+  background-color: #3a3053;
+  width: 68em;
+  height: 8em;
   display: flex;
   background-image: url(/bg-shorten-desktop.svg);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
-  
 }
 
-.encurtador-flex {display: flex;
+.encurtador-flex {
+  display: flex;
   justify-content: center;
   height: 60px;
 }
 
 .input-1 {
-  width: 30em;
-  height: 2.3em;
+  width: 58em;
+  height: 3.7em;
   align-self: center;
   border-radius: 10px;
+  padding: 0 20px;
 }
 
 .button-1 {
   width: 12em;
-  height: 2.49em;
+  height: 3.7em;
   background-color: #5fdcdc;
   border: none;
   color: white;
   border-radius: 0.5em;
   align-self: center;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .advanced-statistics {
@@ -93,63 +105,73 @@ a {color: grey;
   justify-content: center;
   height: 150px;
   background-color: rgba(215, 214, 214, 0.175);
-  padding-top: 60px;
+  padding-top: 130px;
 }
 
 .diagonal {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   background-color: rgba(215, 214, 214, 0.175);
   height: 20em;
   justify-content: center;
   padding: 70px 0px;
 }
 
-
 .roda-pe-roxo {
   height: 15em;
-  background-color: rgb(19, 30, 101);
+  background-color: #3a3053;
   display: flex;
-flex-direction: column;
-background-image: url(bg-boost-desktop.svg);
-text-align: center;
-
-
-
-}.button-2 { width: 12em;
-    height: 2.3em;
-    background-color: #5fdcdc;
-    border: none;
-    color: white;
-    border-radius: 1.5em;
-    align-self: center;
-    height: 10x;
-
+  flex-direction: column;
+  background-image: url(bg-boost-desktop.svg);
+  text-align: center;
+}
+.button-2 {
+  width: 12em;
+  height: 3.3em;
+  background-color: #5fdcdc;
+  border: none;
+  color: white;
+  border-radius: 1.5em;
+  align-self: center;
+  font-weight: bold;
 }
 
-.roda-pe-preto {display: flex;
-background-color: blanchedalmond;
-width: 100%;
-justify-content: space-around;}
+.roda-pe-preto {
+  display: flex;
+  padding-top: 30px;
+  background-color: rgba(21, 20, 20, 0.846);
+  width: 100%;
+  height: 250px;
+  justify-content: space-around;
+}
 
-.features {flex-direction: row;}
+.titulo-2 {
+  font-size: 50px;
+  font-weight: bold;
+}
 
-.titulo-2 {font-size: 50px;
-font-weight: bold;}
+.titulo-3 {
+  font-size: 35px;
+  font-weight: 600;
+}
 
-.titulo-3 {font-size: 35px;
-  font-weight: 600;}
+.paragrafo {
+  color: grey;
+  font-size: 20px;
+}
 
-.paragrafo {color: grey;
-  font-size: 20px;}
-
-  .button-3 {width: 150px;
+.button-3 {
+  padding: 10px;
+  width: 150px;
   border: none;
-background-color: #5fdcdc;
-border-radius: 30px;
+  background-color: #5fdcdc;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
 }
 
 .div-diagonal {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.481);
   width: 250px;
   height: 200px;
   padding: 0 20px;
@@ -159,14 +181,17 @@ border-radius: 30px;
 }
 
 .div-diagonal-2 {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.481);
   width: 250px;
   height: 200px;
   background-color: white;
-align-self: center;
-border-radius: 15px;
-padding: 0 20px;}
+  align-self: center;
+  border-radius: 15px;
+  padding: 0 20px;
+}
 
-.div-diagonal-3 {  
+.div-diagonal-3 {
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.481);
   padding: 0 20px;
   width: 250px;
   height: 200px;
@@ -175,35 +200,89 @@ padding: 0 20px;}
   border-radius: 15px;
 }
 
-.titulo-4 {color: white;
-font-size: 35px;
-font-weight: 600;
-padding: 45px;
-padding-top: 55px;}
+.titulo-4 {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 45px;
+  padding-top: 55px;
+}
 
-.circulo-icon {background-color: rgb(59, 0, 122);
-width: 60px;
-height: 60px;
-border-radius: 100%;
-display: flex;
-justify-content: center;
-    align-items: center;
+.circulo-icon {
+  background-color: rgb(59, 0, 122);
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-bottom: 30px;}
+  bottom: 30px;
+}
 
-.icones {width: 40px;
-height: 40px;}
+.icones {
+  width: 40px;
+  height: 40px;
+}
 
-.margin { margin-top: 13px;}
+.margin {
+  margin-top: 13px;
+}
 
-.margin-2 { margin-top: 13px;
-margin-bottom: 15px;}
+.margin-2 {
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
 
-.button-4 { background-color: #5fdcdc;
-width: 70px;
-height: 30px;
-border-radius: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-left: 25px;}
+.button-4 {
+  background-color: #5fdcdc;
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+.text-baixo {
+  color: white;
+}
+
+.titulo-baixo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subtitulo-baixo {
+  color: white;
+  font-size: 20px;
+}
+
+.paragrafo-baixo {
+  color: rgb(194, 194, 194);
+  font-size: 16px;
+  padding: 20px 0px;
+}
+
+.icones-2 {
+  padding: 0px 5px;
+  font-size: 20px;
+}
+
+.verde {
+  width: 700px;
+  background-color: #5fdcdc;
+  height: 12px;
+  position: relative;
+  z-index: -1;
+}
+
+.subtitulo {
+  color: rgb(35, 35, 35);
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
