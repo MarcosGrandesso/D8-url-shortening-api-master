@@ -123,6 +123,7 @@ a {
   display: flex;
   flex-direction: column;
   background-image: url(bg-boost-desktop.svg);
+  background-size: 100%;
   text-align: center;
 }
 .button-2 {
